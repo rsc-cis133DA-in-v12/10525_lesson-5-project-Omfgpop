@@ -12,23 +12,25 @@
     <meta name="description" content=" A project by Justin Riley in order to learn how to correctly implement CSS">
 </head>
 <body>
-    <header>
-        <h1>Applying Inline CSS</h1>
-        <p>"Don't count the days, make the days count." Muhammad Ali</p>
+    <header style="text-align: center;">
+        <!-- If the first font is unavailable it will move on to the second one in the list. In this case it would be Helvetica -->
+        <h1 style="color: #7CFC00; font-size: x-large; font-family: Arial, Helvetica, sans-serif; ">Applying Inline CSS</h1>
+         <!-- The first of three types of values that can be used to define weight properties is keyword values. These include words like normal and bold. The second is relative values. These include words like bolder and lighter. Finally, there are number values. Values range from 100-900 using multiples of 100 to count.  -->
+        <p style="font-weight: bold;">"Don't count the days, make the days count." Muhammad Ali</p>
         <!--<nav>
             <a href="#">Placeholder Link</a>
         </nav>-->
     </header>
     <main>
-        <h2>Generic Font Families</h2>
-        <p>Generic Font Families have a similar look and are grouped accordingly. For example, Sans-seruf fonts have no "little swirls" on the ends whereas Serif fonts have these lines. Other Font families include Cursive, fantasy, proportional and monospace fonts.</p>
-        <h3>How to use Colors!</h3>
-        <p>The simplest way to use color in a webpage is to hexadecimal colors. To do this you need to locate the text you want to change. Using the style attribute with the color CSS property we can change the color. You can also change the color using an accepted color name in place of the hexadecimal color code.<br>
+        <h2 style="color: red;">Generic Font Families</h2>
+        <p style="font-size: large; font-family: sans-serif; ">Generic Font Families have a similar look and are grouped accordingly. For example, Sans-seruf fonts have no "little swirls" on the ends whereas Serif fonts have these lines. Other Font families include Cursive, fantasy, proportional and monospace fonts.</p>
+        <h3 style="color: rgb(181, 206, 124);">How to use Colors!</h3>
+        <p style="font-size: 16px; font-family: monospace;">The simplest way to use color in a webpage is to hexadecimal colors. To do this you need to locate the text you want to change. Using the style attribute with the color CSS property we can change the color. You can also change the color using an accepted color name in place of the hexadecimal color code.<br>
             Example: “&lt;p style="color: #B84128;">Apples&lt;/p>” Would change the word apple to a dark red color within the paragraph. So, would 
             “&lt;p style="color: #darkred;">Apples&lt;/p>”.
             </p>
     </main>
-    <footer>
+    <footer style="text-align: right;">
         <p><small>Copyright by Justin Riley &copy; 2024</small></p>
     </footer>
 </body>
